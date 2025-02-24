@@ -62,7 +62,7 @@ model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accur
 
 # Train Model
 print("🚀 Training Model...")
-model.fit(X_train, y_train, epochs=5, batch_size=32, validation_data=(X_test, y_test),cla1ss_weight={0: 1.5, 1: 1.0})
+model.fit(X_train, y_train, epochs=5, batch_size=32, validation_data=(X_test, y_test),class_weight={0: 1.5, 1: 1.0})
 
 # Save Model
 model.save("models/mask_detector.keras")  # Recommended
