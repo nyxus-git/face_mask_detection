@@ -1,2 +1,16 @@
 /models
 /dataset
+venv/
+/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.csv
+*.json
+*.xlsx
+*.xls
+*.tsv
+*.md
